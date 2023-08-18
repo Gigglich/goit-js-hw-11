@@ -135,7 +135,12 @@ p {
 }
 
 .gallery {
-
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
   color: #fff;
 
   text-shadow: black 0.1em 0.1em 0.2em;
