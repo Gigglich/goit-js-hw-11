@@ -27,6 +27,14 @@ body {
   gap: 20px;
 }
 
+.gallery {
+  margin-top: var(--scroll-content-margin);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px 0;
+  display: flex;
+}
 
 .search-form {
   display: flex;
